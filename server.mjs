@@ -37,6 +37,7 @@ app.post('/users',(req, res)=>{
             rollno:req.body.rollno
         })
     }
+    res.send("users created");
 })
 
 app.put('/users/:id',(req, res)=>{
